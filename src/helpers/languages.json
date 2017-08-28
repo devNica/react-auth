@@ -1,0 +1,42 @@
+{
+  "en": {
+    "button": {
+      "next": "Next"
+    },
+    "login": {
+      "title": "Enter",
+      "subTitle": "Log in",
+      "forgot": "Forgot your email?",
+      "required": {
+        "email": "Enter an email"
+      },
+      "input": {
+        "email": "Email"
+      }
+    },
+    "forgot": {
+      "title": "Enter",
+      "subTitle": "Log in"
+    }
+  },
+  "es": {
+    "button": {
+      "next": "Siguiente"
+    },
+    "login": {
+      "title": "Acceder",
+      "subTitle": "Iniciar sesión",
+      "forgot": "¿Olvidaste el correo electrónico?",
+      "required": {
+        "email": "Ingresa un correo electrónico"
+      },
+      "input": {
+        "email": "Correo electrónico"
+      }
+    },
+    "forgot": {
+      "title": "Buscar tu correo electrónico",
+      "subTitle": "Ingresa tu correo de recuperación"
+    }
+  }
+}

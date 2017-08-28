@@ -1,5 +1,10 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+    background: #e1e1e1;
+    color: rgba(0,0,0,.87);
+    direction: ltr;
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
 }

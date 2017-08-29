@@ -52,7 +52,7 @@ class Input extends Component {
           <span className="highlight"></span>
           <span className="bar"></span>
           <label>
-            {locale.fetch().login.input.email}
+            {this.props.label}
           </label>
         </div>
         {this.errorMessage()}
@@ -64,7 +64,8 @@ class Input extends Component {
 Input.propTypes = {
   onChange: PropTypes.func,
   isError: PropTypes.bool,
-  errorMessage: PropTypes.string
+  errorMessage: PropTypes.string,
+  label: PropTypes.string.required
 }
 
 export default Input;

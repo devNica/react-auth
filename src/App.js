@@ -25,7 +25,7 @@ class App extends Component {
 
   componentDidMount() {
     const locale = new Locale();
-    locale.setLanguage(this.state.locale || 'es');
+    locale.setLanguage('es');
 
     const session = new Session();
     session.setAccessToken('12345678');

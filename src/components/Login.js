@@ -53,9 +53,7 @@ class Login extends Component {
         isError: true
       });
     }
-
   }
-
 
   renderSignUpButton() {
     if (this.props.allowSignUp) {
@@ -73,7 +71,8 @@ class Login extends Component {
         <Input
           onChange={this.emailChange}
           isError={this.state.isError}
-          errorMessage={this.state.errorMessage} />
+          errorMessage={this.state.errorMessage}
+          label={locale.fetch().login.input.email} />
         <div className="Login-forgot">
           <a className="link" href="/google" onClick={this.props.onForgotClick}>
             {locale.fetch().login.forgot}

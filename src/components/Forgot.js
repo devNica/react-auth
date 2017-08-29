@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+// components
+import Input from './Input';
 // helpers
 import Locale from '../helpers/locale';
 
@@ -9,14 +11,8 @@ class Forgot extends Component {
   render() {
     return (
       <div className="Forgot">
-        <div className="group">
-          <input type="text" required/>
-          <span className="highlight"></span>
-          <span className="bar"></span>
-          <label>
-            {locale.fetch().login.input.email}
-          </label>
-        </div>
+        <Input
+          label={locale.fetch().login.input.email} />
       </div>
     );
   }

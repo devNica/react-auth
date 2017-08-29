@@ -10,7 +10,12 @@ class Locale {
   }
 
   getLanguage() {
-    return localStorage.getItem(this.key)
+    if (localStorage.getItem(this.key) !== '') {
+      return localStorage.getItem(this.key)
+    } else {
+      return 'es'
+    }
+
   }
 
   fetch() {
